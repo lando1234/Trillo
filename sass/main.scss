@@ -12,6 +12,10 @@
     --shadow-dark: 0 2rem 6rem rgba(0,0,0,.3);
 }
 
+$bp-largest: 75em;
+$bp-large: 68.75em;
+$bp-medium: 56.25em;
+
 @import "base";
 @import "layout";
 @import "components";
