@@ -19,6 +19,12 @@
     justify-content: space-between;
     align-items: center;
     font-size: 1.4rem;
+
+    @media only screen and (max-width: $bp-xs){
+         flex-wrap: wrap;
+         height:11rem;
+         align-content: space-around;
+    }
 }
 
 .content{
@@ -55,6 +61,10 @@
     @media only screen and (max-width: $bp-medium){
         padding:3rem;
     }
+
+    @media only screen and (max-width: $bp-small){
+        flex-direction: column;
+    }
     
 }
 
@@ -69,8 +79,11 @@
         padding:2rem;
     }
     
+    @media only screen and (max-width: $bp-small){
+        margin-right: 0;
+        margin-bottom: 3rem;
+    }
 
-    
 }
 
 .user-reviews {
@@ -78,6 +91,5 @@
 
     display:flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-around;
 }
